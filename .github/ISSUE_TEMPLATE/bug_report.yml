@@ -1,1 +1,21 @@
+name: Ошибка
+description: Сообщить о проблеме Beta
+title: '[Bug] '
+body:
+  - type: markdown
+    attributes:
+      value: Не публикуй токены, коды привязки и личные данные.
+  - type: textarea
+    id: client
+    attributes:
+      label: Клиент и версия
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Шаги, ожидаемый и фактический результат
+    validations:
+      required: true
+
 
